@@ -1,0 +1,29 @@
+<h1>Login Page</h1>
+        <form method="POST">
+            {% csrf_token %}
+                <label for="username">Username</label><br>
+                <input type="text" id="username" placeholder="username" name="Email" required><br>
+                <br>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" placeholder="password" name="pwd" required><br>
+                <br>
+                <br>
+                <input type="submit" id="Submit">
+                <br>
+                <br>
+                <button><a href="{% url 'Reg' %}">Registration</a> &nbsp;&nbsp; | &nbsp;&nbsp; </button>
+                <br>
+                <a id="forgot" href="">Forgot Password</a>
+                <br>
+                <br> 
+            </form>
+{% if messages %}
+{% for msg in messages %}
+</h2>{{msg}}<h2>
+{% endfor %}
+{% endif %} 
+        </form>
+        <br>
+        <a id="rights" href="www.google.com">@ 2021 Namo India, Inc. All rights reserved.</a><br>
+    </body>
+</html>
