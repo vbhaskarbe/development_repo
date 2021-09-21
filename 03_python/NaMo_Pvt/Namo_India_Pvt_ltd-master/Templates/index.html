@@ -1,0 +1,64 @@
+<h1>This is a Index Page</h1>
+<hr>
+{% if request.session.Email %}
+<br>
+<br>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Page</title>
+        <link rel="stylesheet" href="user_information_page.css">
+    </head>
+    <body>
+        <form>
+            <div class="userinformationpage">
+<h1>User Page</h1>
+<label id = "Name" for="test">Name:</label>
+    <span>
+        <input name="test" id="Name1" type="text" placeholder="Enter your name"/>
+    </span>
+    <br><br>
+<label id = "Description" for="test">Description:</label>
+    <span>
+        <textarea  id="Description1" type="text area" placeholder="Enter your description"></textarea>
+    </span><br><br>
+<label id = "Rollno"for="test">Roll No:</label>
+    <span>
+        <input id = "Rollno1" name="test" id="test" type="number" placeholder="Enter your number"/>
+    </span><br><br>
+<label for="test">Phone Number:</label>
+    <span>
+        <input name="test" id="test" type="number"  placeholder="Enter your phone number"/>
+    </span><br><br>
+<label for="test">Email:</label>
+    <span>
+        <input name="email" id="email" type="email" placeholder="Enter your email"/>
+    </span><br><br>            
+    <label for="test">Select Item:</label>
+    <select name="test" id="selectitems">
+      <option value="item">Python</option>
+      <option value="Item">Aws</option>
+      <option value="item">Devops</option>
+      <option value="item">Go Language</option>
+    </select><br>
+<input type="checkbox" id="check1" name="test"><br>
+<label for="test"> </label><br>
+<input type="checkbox" id="check2" name="test"><br>
+<label for="test"></label><br>
+<input type="checkbox" id="check3" name="test"><br>
+<label for="test"></label><br>
+<br>
+<input type="radio" id="radio1" name="radio">
+<label for="test">Option1</label>
+<input type="radio" id="radio2" name="radio">
+<label for="test">Option2</label><br>
+<br>
+<button type="button" id="Save">Save</button>
+<button type="button" id="Cancel">Cancel</button>
+</form>
+</div>
+    </body>
+</html>
+{{request.session.Email}} &nbsp;&nbsp; <a href="{%url 'loginpage'%}">Logout</a>
+{% else %}
+{% endif %}

@@ -1,0 +1,32 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#483D8B;  
+    font-family: 'Arial';  
+    text-align: center;
+    
+}  
+form {
+    width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #8A2BE2;  
+        border-radius: 15px ;   
+}
+.userinformationpage{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#Name{
+    width: 500px;
+  clear: both;
+}
+
+#Name1{
+    width: 100%;
+  clear: both;
+}
