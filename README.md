@@ -8,12 +8,12 @@ pip install django
 django-admin --version
 
 # To start Django-Project
-mkdir <foldername> - To create a folder
-cd <foldername> - Enter into folder 
-django-admin startproject <projectname>
+mkdir foldername - To create a folder
+cd foldername - Enter into folder 
+django-admin startproject projectname
   
 # Django APP
-python manage.py startapp <appname>
+python manage.py startapp appname
 
 # Django server
 python manage.py runserver
