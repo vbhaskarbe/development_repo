@@ -18,6 +18,6 @@ python manage.py startapp <appname>
 # Django server
 python manage.py runserver
   
-# Database mygrations
+# Database migrations
 python manage.py make migrations
 python manage.py migrate
