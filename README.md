@@ -14,3 +14,10 @@ django-admin startproject <projectname>
   
 # Django APP
 python manage.py startapp <appname>
+
+# Django server
+python manage.py runserver
+  
+# Database mygrations
+python manage.py make migrations
+python manage.py migrate
