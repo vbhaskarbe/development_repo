@@ -80,7 +80,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'emmdb',
         'USER': 'root',
-        'PASSWORD': 'thrilok',
+#        'PASSWORD': 'thrilok',
+        'PASSWORD': '',
         'HOST' : 'localhost',
         'PORT': '3306',
         'OPTIONS': {
