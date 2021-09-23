@@ -1,5 +1,5 @@
-# development_repo
-main branch file.
+# Development_repo
+This is a main branch file.
 
 # Django CLI Installation Steps :- 
 pip install django
@@ -8,8 +8,10 @@ pip install django
 django-admin --version
 
 # To start Django-Project
-mkdir foldername - To create a folder
-cd foldername - Enter into folder 
+# To create a folder
+mkdir foldername
+# Navigate to the folder
+cd foldername
 django-admin startproject projectname
   
 # Django APP
@@ -21,3 +23,5 @@ python manage.py runserver
 # Database migrations
 python manage.py make migrations
 python manage.py migrate
+
+
