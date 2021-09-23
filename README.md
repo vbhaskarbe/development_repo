@@ -24,4 +24,7 @@ python manage.py runserver
 python manage.py make migrations
 python manage.py migrate
 
+# Install Mysqlclient
+pip install mysqlclient
+
 
