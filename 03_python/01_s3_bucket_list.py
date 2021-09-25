@@ -19,4 +19,3 @@ print('INFO: List of buckets in S3:')
 for s3bucket in response['Buckets']:
     print(f'  {s3bucket["Name"]}')
 
-

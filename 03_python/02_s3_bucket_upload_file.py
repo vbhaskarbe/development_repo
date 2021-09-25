@@ -15,6 +15,7 @@ export S3_UPLOAD_LOCALFILE='./s3_bucket_upload_file.py'
 export S3_UPLOAD_FILENAME='s3_bucket_upload_file.py'
 export S3_BUCKET_NAME='<your_s3_bucket_name>'
 """
+
 def upload_to_aws_s3(local_file, bucket, s3_file):
     """Upload a file to an S3 bucket
     :param local_file: File to upload
