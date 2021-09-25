@@ -6,12 +6,12 @@ import os
 ## A Python3 program to Upload a new file to s3 bucket
 ##
 ## ******  IMPORTANT ******
-##  PLEASE SET AWS_ACCESS_KEY_ID, and AWS_SECRET_ACCESS_KEY in env before executing.
+##  Set AWS_ACCESS_KEY_ID, and AWS_SECRET_ACCESS_KEY in env before executing.
 ##
 """ Input:
 export S3_UPLOAD_LOCALFILE='./s3_bucket_upload_file.py'
 export S3_UPLOAD_FILENAME='s3_bucket_upload_file.py'
-export S3_BUCKET_NAME='bhasvarajenkins'
+export S3_BUCKET_NAME='<your_s3_bucket_name>'
 """
 
 def upload_to_aws_s3(local_file, bucket, s3_file):

@@ -4,7 +4,7 @@ import boto3
 ## A Python3 program to List buckets in S3 
 ##
 ## ******  IMPORTANT ******
-##  PLEASE SET AWS_ACCESS_KEY_ID, and AWS_SECRET_ACCESS_KEY in env before executing.
+##  Set AWS_ACCESS_KEY_ID, and AWS_SECRET_ACCESS_KEY in env before executing.
 ##
 
 # Retrieve the list of existing buckets

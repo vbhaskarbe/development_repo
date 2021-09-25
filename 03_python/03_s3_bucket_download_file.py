@@ -5,12 +5,12 @@ import os
 ## A Python3 program to Download an existing file from S3
 ##       
 ## ******  IMPORTANT ******
-##  PLEASE SET AWS_ACCESS_KEY_ID, and AWS_SECRET_ACCESS_KEY in env before executing.
+##  Set AWS_ACCESS_KEY_ID, and AWS_SECRET_ACCESS_KEY in env before executing.
 ##
 """ Input:
 export S3_DOWNLOAD_FILENAME='01_shell.zip'
 export S3_DOWNLOAD_LOCALNAME='/tmp/01_shell_local.zip'
-export S3_BUCKET_NAME='bhasvarajenkins'
+export S3_BUCKET_NAME='<your_s3_bucket_name>'
 """
 
 def download_from_aws_s3(bucket, remote_file, local_file):
