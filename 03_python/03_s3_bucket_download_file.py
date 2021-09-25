@@ -1,12 +1,9 @@
-import logging
 import boto3
-from botocore.exceptions import ClientError
-from botocore.exceptions import NoCredentialsError
 import os
 ##
 ## Author : Bhaskar Varadaraju
-## A Python program to Download an existing file from S3
-## 
+## A Python3 program to Download an existing file from S3
+##       
 ## ******  IMPORTANT ******
 ##  PLEASE SET AWS_ACCESS_KEY_ID, and AWS_SECRET_ACCESS_KEY in env before executing.
 ##

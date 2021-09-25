@@ -1,12 +1,9 @@
-import logging
 import boto3
-from botocore.exceptions import ClientError
 from botocore.exceptions import NoCredentialsError
 import os
-import sys
 ##
 ## Author : Bhaskar Varadaraju
-## A Python program to Upload a new file to s3 bucket
+## A Python3 program to Upload a new file to s3 bucket
 ##
 ## ******  IMPORTANT ******
 ##  PLEASE SET AWS_ACCESS_KEY_ID, and AWS_SECRET_ACCESS_KEY in env before executing.
@@ -20,8 +17,8 @@ export S3_BUCKET_NAME='bhasvarajenkins'
 def upload_to_aws_s3(local_file, bucket, s3_file):
     """Upload a file to an S3 bucket
     :param local_file: File to upload
-    :param bucket: Bucket to upload to
-    :param s3_file: S3 object name. If not specified then file_name is used
+    :param bucket    : Bucket to upload to
+    :param s3_file   : S3 object name or default file_name
     :return: True if file was uploaded, else False
     """
     s3_client = boto3.client('s3',
