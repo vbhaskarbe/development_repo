@@ -1,12 +1,14 @@
-import boto3
-import os
 ##
 ## Author : Bhaskar Varadaraju
 ## A Python3 program to Download an existing file from S3
 ##       
-## ******  IMPORTANT ******
-##  Set AWS_ACCESS_KEY_ID, and AWS_SECRET_ACCESS_KEY in env before executing.
+## ******  IMPORTANT : Set below before executing ******
+##  export AWS_ACCESS_KEY_ID=<Your_Aws_KeyId>
+##  export AWS_SECRET_ACCESS_KEY=<Your_Aws_Secret_Access_Key>
 ##
+import boto3
+import os
+
 """ Input:
 export S3_DOWNLOAD_FILENAME='01_shell.zip'
 export S3_DOWNLOAD_LOCALNAME='/tmp/01_shell_local.zip'
