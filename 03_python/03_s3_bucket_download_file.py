@@ -1,6 +1,6 @@
 ##
 ## Author : Bhaskar Varadaraju
-## A Python3 program to Download an existing file from S3
+## A Python3 program to Download an existing file from AWS S3
 ##       
 ## ******  IMPORTANT : Set below before executing ******
 ##  export AWS_ACCESS_KEY_ID=<Your_Aws_KeyId>

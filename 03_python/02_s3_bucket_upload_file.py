@@ -1,6 +1,6 @@
 ##
 ## Author : Bhaskar Varadaraju
-## A Python3 program to Upload a new file to s3 bucket
+## A Python3 program to Upload a new file to AWS S3 bucket
 ##
 ## ******  IMPORTANT : Set below before executing ******
 ##  export AWS_ACCESS_KEY_ID=<Your_Aws_KeyId>
