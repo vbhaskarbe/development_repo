@@ -8,7 +8,7 @@ import os
 ## ******  IMPORTANT ******
 ##  PLEASE SET AWS_ACCESS_KEY_ID, and AWS_SECRET_ACCESS_KEY in env before executing.
 ##
-"""
+""" Input:
 export S3_UPLOAD_LOCALFILE='./s3_bucket_upload_file.py'
 export S3_UPLOAD_FILENAME='s3_bucket_upload_file.py'
 export S3_BUCKET_NAME='bhasvarajenkins'
