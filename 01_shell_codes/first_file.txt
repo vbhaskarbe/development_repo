@@ -1,2 +1,0 @@
-This is my first file in GIT.
-I have created this on this auspicious day.
