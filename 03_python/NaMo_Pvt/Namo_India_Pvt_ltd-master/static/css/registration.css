@@ -1,0 +1,47 @@
+body{
+    background-color:lightsalmon;
+}
+
+#table{
+    height:50%;
+    width:60%
+}
+
+#signin{
+    font-size: 60px;
+}
+#username{
+    font-size: 30px;
+}
+#usernamesize{
+    font-size: 30px;
+}
+#email{
+    font-size: 30px;
+}
+#emailsize{
+    font-size: 30px;
+}
+#password{
+    font-size: 30px;
+}
+#passwordsize{
+    font-size: 30px;
+}
+#phonenumber{
+    font-size: 30px;
+}
+#phonenumbersize{
+    font-size: 30px;
+}
+#registration{
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+

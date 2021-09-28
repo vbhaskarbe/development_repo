@@ -1,0 +1,79 @@
+body{
+    background-color: aquamarine;
+}
+
+#table{
+    width:80%;
+    height:80%
+    
+}
+
+#th{
+    height:150%
+}
+
+#name{
+    font-size: 20px;
+}
+#namesize{
+    font-size: 20px;
+}
+#email{
+    font-size: 20px;
+
+}
+#emailsize{
+    font-size:20px;
+}
+#phonenumber{
+    font-size: 20px;
+}
+#phonenumbersize{
+    font-size: 20px;
+}
+#gender{
+    font-size: 20px;
+
+}
+#gendersize{
+    font-size: 20px;
+}
+#prerequisite{
+    font-size: 20px;
+}
+#education{
+    font-size: 20px;
+}
+#description{
+    font-size: 20px;
+
+}
+#descriptionsize{
+    font-size: 20px;
+}
+#submit{
+  background-color: #4403db; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#logout{
+    background-color: #db03d0; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}

@@ -19,17 +19,11 @@ from  . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Registration', views.Userreg, name="Reg"),
     path('',views.loginpage, name='loginpage'),
-    path('logout',views.logout, name='logout')
+    path('Registration', views.Userreg, name="Reg"),
+    path('logout',views.logout, name='logout'),
+    path('mainreg', views.new_registration, name='mainreg')
 
-    """
-        /login or /signin
-        /registration - POST
-        /users - POST
-        /users/<user_id> - Update or Delete or Get - PUT, DELETE, GET
-
-        REST API compliance application.
-        curl, postman -- Able to connect and get data
-    """
 ]
+    
+

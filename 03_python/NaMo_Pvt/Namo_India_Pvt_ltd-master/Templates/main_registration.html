@@ -1,0 +1,60 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/main_registration.css' %}">
+<h1>User Registration Form</h1>
+
+<form method="POST">
+    {% csrf_token %}
+<table id='table' border="1">
+    <tr>
+        <td id="name" name="name">Name</td>
+        <td><input id="namesize"type="text" placeholder="Username" name="Name" required></td>
+    </tr>
+    <tr>
+        <td id="email">Email</td>
+        <td><input id="emailsize" type="email" placeholder="Email" name="Email" required></td>
+    </tr>
+    <tr>
+        <td id="phonenumber">PhoneNumber</td>
+        <td><input id="phonenumbersize" type="number" placeholder="PhoneNumber" name="PhoneNumber" required></td>
+    </tr>
+<tr>
+    <td id="gender">Gender</td>
+    <td><input id="gender" type="radio" value="M" name="Gender">Male | <input type="radio" value="F" Name="Gender">Female</td>
+</tr>
+<tr>
+    <td id="prerequisite">Prerequisite</td>
+    <td>
+    <input id="prerequisite" type="checkbox"  name="Prerequisite" value="Aws Login">
+    <label id="prerequisite" for="Aws Login"> AWS Login</label><br>
+    <input id="prerequisite" type="checkbox" name="Prerequisite" value="GitHub Login">
+    <label id="prerequisite" for="GitHub Login"> GitHub Login</label><br>
+    <input id="prerequisite" type="checkbox"  name="Prerequisite" value="Ubuntu in Laptop">
+    <label id="prerequisite" for="Ubuntu in Laptop"> Ubuntu in Laptop</label><br>
+</td>
+    </tr>
+    <tr>
+
+    <td id="education">Education</td>
+    <td><select id="education" name="Education">
+        <option value="BTech">B.Tech</option>
+        <option value="MTech">M.Tech</option>
+        <option value="PHD">PHD</option>
+        <option value="MBA">MBA</option>
+        <option value="MCA">MCA</option>
+    </select></td>
+</tr>
+<tr>
+    <td id="description"> Description</td>
+    <td><textarea id ="descriptionsize" name = "Description" placeholder="Enter Description"></textarea></td>       
+</tr>
+</table>
+<br>
+<td> <button id="submit" type="submit">Submit</button></td>
+<br>
+<br>
+{% if messages %}
+{% for msg in messages %}
+</h2>{{msg}}<h2>
+{% endfor %}
+{% endif %} 
+ &nbsp;&nbsp; <a id="logout" href="{%url 'loginpage'%}">Logout</a>

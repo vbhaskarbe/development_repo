@@ -1,0 +1,14 @@
+body{
+    background-color:plum;
+}
+
+#adduser{
+    background-color: #c2d7e0; /* Green */
+  border: none;
+  color: rgb(235, 35, 8);
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
