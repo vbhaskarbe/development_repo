@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo "Enter your name: "
+echo "Please, Enter your name: "
 read name
 echo "Hello, $name"
 
+echo "Done"
